@@ -15,12 +15,26 @@ npm install --save duo-gallery
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'duo-gallery'
+import DuoGallery from 'duo-gallery'
 import 'duo-gallery/dist/index.css'
 
 class Example extends Component {
+const arr = [
+  {
+      id: 0,
+      imgSrc: example_img_1,
+    },
+    {
+      id: 1,
+      imgSrc: example_img_2,
+    },
+    {
+      id:2,
+      imgSrc: example_img_3,
+    },
+]
   render() {
-    return <MyComponent />
+    return <DuoGallery imageArray={arr} />
   }
 }
 ```
@@ -28,3 +42,6 @@ class Example extends Component {
 ## License
 
 MIT © [jakub-jarzabek](https://github.com/jakub-jarzabek)
+
+## Design
+Gallery Design By Magdalena Pierzchała (https://www.linkedin.com/in/magdalena-pierzchala/)
