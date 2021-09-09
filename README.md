@@ -15,7 +15,7 @@ npm install --save duo-gallery
 ```jsx
 import React, { Component } from 'react'
 
-import DuoGallery from 'duo-gallery'
+import {DuoGallery} from 'duo-gallery'
 import 'duo-gallery/dist/index.css'
 
 class Example extends Component {
